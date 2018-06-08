@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Quartz.Impl;
 
 namespace Quartz.DependencyInjection.Microsoft.Extensions
 {
