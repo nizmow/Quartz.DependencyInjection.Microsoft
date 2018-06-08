@@ -8,3 +8,9 @@ nuget:
     disable_publish_on_pr: true
 build_script:
 - ps: ./Build.ps1
+deploy:
+    provider: NuGet
+    api_key:
+        secure: KzSuFGmTy+u9GRlHlfVHdFEsFfj7/3XzfxotzyxNZ4B5WEj8XYIzYnU84MZPBVFE
+    skip_symbols: false
+    artifact: /artifacts/*.nupkg
